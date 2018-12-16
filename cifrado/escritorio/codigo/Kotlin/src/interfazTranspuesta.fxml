@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<?import java.lang.Integer?>
+<AnchorPane prefHeight="299.0" prefWidth="713.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="KVM">
+   <children>
+      <Label fx:id="textoLabel" layoutX="32.0" layoutY="26.0" prefHeight="17.0" prefWidth="54.0" text="Texto:">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TFtextoPlano" layoutX="86.0" layoutY="24.0" prefHeight="25.0" prefWidth="324.0" onKeyReleased="#procesar"/>
+      <Pane layoutX="32.0" layoutY="66.0" prefHeight="200.0" prefWidth="210.0" AnchorPane.topAnchor="66.0">
+         <children>
+            <Label id="labelCesar" fx:id="cifradoLabel" layoutX="51.0" layoutY="6.0" text="Cifrado Cesar">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label id="desplazamientoLabel" layoutX="7.0" layoutY="36.0" text="Desplazamiento:" />
+             <fx:define>
+                 <Integer fx:id="min" fx:value="0"/>
+                 <Integer fx:id="max" fx:value="100"/>
+             </fx:define>
+             <Spinner fx:id="desplazamientoSpinner" accessibleRole="LIST_ITEM" layoutX="102.0" layoutY="32.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="98.0" min="$min" max="$max" onMouseClicked="#procesar">
+
+             </Spinner>
+
+            <TextArea fx:id="cifradoTA" layoutX="4.0" layoutY="69.0" prefHeight="131.0" prefWidth="202.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="256.0" layoutY="66.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label id="labelCesar" fx:id="transpuestaLabel" layoutX="48.0" layoutY="24.0" text="Transpuesta">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="transpuestaTA" layoutY="70.0" prefHeight="131.0" prefWidth="200.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="471.0" layoutY="66.0" prefHeight="200.0" prefWidth="193.0">
+         <children>
+            <Label id="labelCesar" fx:id="TranspuestaAgrupadoLabel" layoutX="14.0" layoutY="14.0" text="Transpuesta Agrupado">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label id="desplazamientoLabel" fx:id="gruposLabel" layoutX="14.0" layoutY="48.0" text="Grupos:">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="gruposSpinner" layoutX="88.0" layoutY="43.0" prefHeight="25.0" prefWidth="98.0" min="$min" max="$max" onMouseClicked="#procesar"/>
+            <TextArea fx:id="grupoTA" layoutY="78.0" prefHeight="122.0" prefWidth="193.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

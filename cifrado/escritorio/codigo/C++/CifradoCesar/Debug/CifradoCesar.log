@@ -1,0 +1,21 @@
+﻿  Interfaz.cpp
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Interfaz.h(3): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\procesoDesencriptar.h(1): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Alfabeto.h(3): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Alfabeto.h(24): warning C4018: '<': no coinciden signed/unsigned
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Alfabeto.h(33): warning C4018: '<': no coinciden signed/unsigned
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Interfaz.h(4): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Interfaz.h(5): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Interfaz.h(6): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\TranspoXGrupo.h(9): warning C4018: '<': no coinciden signed/unsigned
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\TranspoXGrupo.h(25): warning C4018: '<': no coinciden signed/unsigned
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Interfaz.h(325): warning C4244: 'argumento': conversión de 'wchar_t' a 'char'; posible pérdida de datos
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Interfaz.h(326): warning C4244: 'argumento': conversión de 'wchar_t' a 'char'; posible pérdida de datos
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Interfaz.h(340): warning C4244: 'argumento': conversión de 'wchar_t' a 'char'; posible pérdida de datos
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Interfaz.h(360): warning C4244: 'argumento': conversión de 'wchar_t' a 'char'; posible pérdida de datos
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Interfaz.h(385): warning C4244: 'argumento': conversión de 'wchar_t' a 'char'; posible pérdida de datos
+c:\users\citlallyfranseb\documents\escuela tec\9semestre\dsou\encriptadocesar\encriptadocesar\Interfaz.h(396): warning C4244: 'argumento': conversión de 'wchar_t' a 'char'; posible pérdida de datos
+Interfaz.cpp(7): warning C4829: Parámetros posiblemente incorrectos para la función main. Utilice 'int main(Platform::Array<Platform::String^>^ argv)'
+  Interfaz.obj : /DEBUG:FASTLINK no se admite cuando hay presente código administrado; reiniciando vínculo con /DEBUG:FULL
+  EncriptadoCesar.vcxproj -> C:\Users\citlallyFranseb\Documents\escuela tec\9semestre\DSOU\EncriptadoCesar\Debug\EncriptadoCesar.exe
+  EncriptadoCesar.vcxproj -> C:\Users\citlallyFranseb\Documents\escuela tec\9semestre\DSOU\EncriptadoCesar\Debug\EncriptadoCesar.pdb (Partial PDB)
